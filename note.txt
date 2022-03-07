@@ -1,0 +1,91 @@
+data-bs-target="#s_id" data-bs-slide="prev"
+
+<h2>Meet Client Satisfaction
+by using product</h2>
+<p>The rise of mobile devices transforms the way we consume.
+elevant channels such as Facebook.</p>
+<h4 class="text-start">User friendly & Customizable</h4>
+<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+<img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/user.png" width="100" alt="">
+
+
+
+
+------- WOW STSRT -----------------------------------------------
+
+<!-- wow css -->
+<link rel="stylesheet" type="text/css" href="vendor/WOW/animate.css">
+
+<section class="wow fadeInUp">
+
+<!-- wow js -->
+<script src="vendor/WOW/wow.min.js"></script>
+
+<-- script.js -->
+wow = new WOW(
+   {
+   boxClass:     'wow',      // default
+   animateClass: 'animated', // default
+   offset:       0,          // default
+   mobile:       true,       // default
+   live:         true        // default
+ }
+ )
+ wow.init();
+
+--------- WOW END ---------------------------------------------
+
+
+
+________ AOS START ______________________________________________
+
+<!-- aos css -->
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css">
+
+<img class="img-fluid" src="images/feature-bg.png" data-aos="fade-right" alt="applab">
+
+ <!-- aos js -->
+ <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+
+<-- script.js -->
+ AOS.init({
+     duration: 1200,
+ });
+
+________ AOS END _______________________________________________
+
+
+
+
+
+
+--------- PARALLAX START ------------------------------------------
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/1.jpg">
+
+<!-- parallax js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.0/parallax.min.js"></script>
+
+---------- PARALLAX START --------------------------------------
+
+
+
+
+
+__________ COUNTER START ___________________________
+
+<h1 class="counter text-center">1,234,567.00</h1>
+
+<!-- counter up js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+<-- script.js -->
+$('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+__________ COUNTER END ______________________________
+

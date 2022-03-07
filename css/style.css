@@ -1,0 +1,65 @@
+/*common css start*/
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #616368;
+}
+.common{
+	padding-top: 80px;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*common css end*/
+
+/*header css start*/
+header{
+	background-color: #F0FFF0 !important;
+}
+/*header css end*/
+
+/*banner css start*/
+.banner{
+	background-color: #F0FFF0;
+}
+.banner span{
+	color: #21B573;
+}
+.banner h5{
+	color: red;
+}
+/*banner end*/
+
+/*companies start*/
+.companies .box{
+	background-color: #F8FFFB;
+	transition: .3s;
+}
+.companies .box:hover{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.companies img{
+	width: 50%;
+}
+/*companies end*/
+
+/*online start*/
+.online .box{
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*online end*/
+
+/*footer start*/
+footer{
+	color: white;
+	background-color: #282531;
+}
+/*footer end*/
+
